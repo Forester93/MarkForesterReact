@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/MarkForesterReact/static/css/main.963eaff7.chunk.css",
-    "main.js": "/MarkForesterReact/static/js/main.fc032ca3.chunk.js",
-    "main.js.map": "/MarkForesterReact/static/js/main.fc032ca3.chunk.js.map",
+    "main.js": "/MarkForesterReact/static/js/main.2c3931fb.chunk.js",
+    "main.js.map": "/MarkForesterReact/static/js/main.2c3931fb.chunk.js.map",
     "runtime-main.js": "/MarkForesterReact/static/js/runtime-main.b98b9178.js",
     "runtime-main.js.map": "/MarkForesterReact/static/js/runtime-main.b98b9178.js.map",
-    "static/js/2.17c0762b.chunk.js": "/MarkForesterReact/static/js/2.17c0762b.chunk.js",
-    "static/js/2.17c0762b.chunk.js.map": "/MarkForesterReact/static/js/2.17c0762b.chunk.js.map",
+    "static/js/2.89646d31.chunk.js": "/MarkForesterReact/static/js/2.89646d31.chunk.js",
+    "static/js/2.89646d31.chunk.js.map": "/MarkForesterReact/static/js/2.89646d31.chunk.js.map",
     "index.html": "/MarkForesterReact/index.html",
     "static/css/main.963eaff7.chunk.css.map": "/MarkForesterReact/static/css/main.963eaff7.chunk.css.map",
-    "static/js/2.17c0762b.chunk.js.LICENSE.txt": "/MarkForesterReact/static/js/2.17c0762b.chunk.js.LICENSE.txt",
+    "static/js/2.89646d31.chunk.js.LICENSE.txt": "/MarkForesterReact/static/js/2.89646d31.chunk.js.LICENSE.txt",
     "static/media/MarkF_FullStackResume.2d8a30e5.pdf": "/MarkForesterReact/static/media/MarkF_FullStackResume.2d8a30e5.pdf",
     "static/media/certificate(0).7b57e643.png": "/MarkForesterReact/static/media/certificate(0).7b57e643.png",
     "static/media/certificate(1).007d3bf4.png": "/MarkForesterReact/static/media/certificate(1).007d3bf4.png",
@@ -32,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b98b9178.js",
-    "static/js/2.17c0762b.chunk.js",
+    "static/js/2.89646d31.chunk.js",
     "static/css/main.963eaff7.chunk.css",
-    "static/js/main.fc032ca3.chunk.js"
+    "static/js/main.2c3931fb.chunk.js"
   ]
 }
