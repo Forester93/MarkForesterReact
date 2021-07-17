@@ -9,22 +9,22 @@ function Header() {
       <header className="header">
         <ul className="menu align-items-start">
           <li>
-            <Link className="menu-btn" to="/">
+            <Link className="menu-btn" to="/MarkForesterReact">
               Welcome
             </Link>
           </li>
           <li>
-            <Link className="menu-btn" to="/About">
+            <Link className="menu-btn" to="/MarkForesterReact/About">
               About Me
             </Link>
           </li>
           <li>
-            <Link className="menu-btn" to="/Projects">
+            <Link className="menu-btn" to="/MarkForesterReact/Projects">
               Projects
             </Link>
           </li>
           <li>
-            <Link className="menu-btn" to="/Contact">
+            <Link className="menu-btn" to="/MarkForesterReact/Contact">
               Contact Me
             </Link>
           </li>

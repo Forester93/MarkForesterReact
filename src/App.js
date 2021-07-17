@@ -11,11 +11,16 @@ function App() {
       <Router>
         <Layout>
           <Switch>
-            <Route exact path="/" component={Home}></Route>
-            <Route path="/MarkForesterReact" component={Home}></Route>
-            <Route path="/About" component={AboutMe}></Route>
-            <Route path="/Projects" component={Projects}></Route>
-            <Route path="/Contact" component={ContactMe}></Route>
+            <Route exact path="/MarkForesterReact" component={Home}></Route>
+            <Route path="/MarkForesterReact/About" component={AboutMe}></Route>
+            <Route
+              path="/MarkForesterReact/Projects"
+              component={Projects}
+            ></Route>
+            <Route
+              path="/MarkForesterReact/Contact"
+              component={ContactMe}
+            ></Route>
           </Switch>
         </Layout>
       </Router>
