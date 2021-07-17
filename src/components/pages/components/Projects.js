@@ -194,40 +194,44 @@ let projects = [
 function Projects() {
   return (
     <section
-      class="main-section
+      className="main-section
        align-items-center"
       id="projects"
     >
-      <p class="about-me text-2">
+      <p className="about-me text-2">
         A list of projects authored or contributed thereto by Mark.
       </p>
       <br />
-      <div class="card-columns" id="projectsContainer">
+      <div className="card-columns" id="projectsContainer">
         {projects.map((project, index) => (
           <div
-            class="card container my-2 vw-50"
+            className="card container my-2 vw-50"
             style={{ display: "inline-block" }}
           >
-            <img class="card-img-top" src={imgs[index]} alt={project.name} />
-            <div class="card-body">
-              <h5 class="card-header">
+            <img
+              className="card-img-top"
+              src={imgs[index]}
+              alt={project.name}
+            />
+            <div className="card-body">
+              <h5 className="card-header">
                 <strong>{project.name}</strong>
               </h5>
-              <div class="card-body">
-                <p class="card-text">
+              <div className="card-body">
+                <p className="card-text">
                   Project Description: {project.description}
                 </p>
-                <p class="card-text">
+                <p className="card-text">
                   <strong>
                     Technologies Used: {project.technologies.concat(", ")}.
                   </strong>
                 </p>
-                <p class="card-text">
-                  <strong class="text-muted">
+                <p className="card-text">
+                  <strong className="text-muted">
                     Project Type: {project.type}
                   </strong>
                 </p>
-                <p class="card-text">
+                <p className="card-text">
                   <strong>Mark's Role: {project.role}</strong>
                 </p>
                 <hr />
@@ -238,8 +242,8 @@ function Projects() {
                   rel="noreferrer"
                 >
                   <button>
-                    <i class="fas fa-arrow-right" aria-hidden="true"></i> Go to
-                    Repository
+                    <i className="fas fa-arrow-right" aria-hidden="true"></i> Go
+                    to Repository
                   </button>
                 </a>
                 <hr />
@@ -250,7 +254,7 @@ function Projects() {
                   rel="noreferrer"
                 >
                   <button>
-                    <i class="fas fa-arrow-right" aria-hidden="true"></i>{" "}
+                    <i className="fas fa-arrow-right" aria-hidden="true"></i>{" "}
                     {project.linkDescription}
                   </button>
                 </a>

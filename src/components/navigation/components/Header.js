@@ -1,34 +1,35 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Portfolio from "../../../assets/files/MarkF_FullStackResume.pdf";
 
 function Header() {
   return (
     <div>
       {" "}
-      <header class="header">
-        <ul class="menu align-items-start">
+      <header className="header">
+        <ul className="menu align-items-start">
           <li>
-            <a class="menu-btn" href="/">
+            <Link className="menu-btn" to="/">
               Welcome
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="menu-btn" href="/about">
+            <Link className="menu-btn" to="/About">
               About Me
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="menu-btn" href="/projects">
+            <Link className="menu-btn" to="/Projects">
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="menu-btn" href="/contact">
+            <Link className="menu-btn" to="/Contact">
               Contact Me
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="menu-btn" href={Portfolio}>
+            <a className="menu-btn" href={Portfolio}>
               Résumé
             </a>
           </li>

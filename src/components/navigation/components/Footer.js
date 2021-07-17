@@ -5,8 +5,8 @@ function Footer() {
     <div>
       <footer>
         <span>
-          Created By NewCorp Solutions | <span class="far fa-copyright"></span>{" "}
-          2021 All rights reserved.
+          Created By NewCorp Solutions |{" "}
+          <span className="far fa-copyright"></span> 2021 All rights reserved.
         </span>
       </footer>
     </div>

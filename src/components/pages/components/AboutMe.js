@@ -4,10 +4,10 @@ function AboutMe() {
   return (
     <section
       id="welcome-section"
-      class="main-section"
+      className="main-section"
       style={{ height: "90vh" }}
     >
-      <p class="about-me text-2">
+      <p className="about-me text-2">
         <br />
         <strong>Who is Mark Forester?</strong>
         <br />
@@ -32,7 +32,7 @@ function AboutMe() {
         when managing teams.
         <br />
       </p>
-      <p class="about-me text-2">
+      <p className="about-me text-2">
         Proficient in the following technologies:
         <ul>
           <li>React</li>
