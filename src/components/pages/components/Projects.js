@@ -193,14 +193,21 @@ let projects = [
 
 function Projects() {
   return (
-    <div class="main-section align-items-center" id="projects">
+    <section
+      class="main-section
+       align-items-center"
+      id="projects"
+    >
       <p class="about-me text-2">
         A list of projects authored or contributed thereto by Mark.
       </p>
       <br />
-      <div class="card-columns container" id="projectsContainer">
+      <div class="card-columns" id="projectsContainer">
         {projects.map((project, index) => (
-          <div class="card container my-2" style={{ display: "inline-block" }}>
+          <div
+            class="card container my-2 vw-50"
+            style={{ display: "inline-block" }}
+          >
             <img class="card-img-top" src={imgs[index]} alt={project.name} />
             <div class="card-body">
               <h5 class="card-header">
@@ -225,9 +232,22 @@ function Projects() {
                 </p>
                 <hr />
                 <a
+                  href={project.repository}
+                  target="_blank"
+                  style={{ fontSize: "large" }}
+                  rel="noreferrer"
+                >
+                  <button>
+                    <i class="fas fa-arrow-right" aria-hidden="true"></i> Go to
+                    Repository
+                  </button>
+                </a>
+                <hr />
+                <a
                   href={project.link}
                   target="_blank"
                   style={{ fontSize: "large" }}
+                  rel="noreferrer"
                 >
                   <button>
                     <i class="fas fa-arrow-right" aria-hidden="true"></i>{" "}
@@ -239,7 +259,7 @@ function Projects() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
 

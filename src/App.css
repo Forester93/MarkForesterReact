@@ -203,83 +203,6 @@ ul li {
   animation-fill-mode: forwards;
 }
 /***********************************************/
-#projects,
-#repositories {
-  display: grid;
-  grid-template-areas:
-    "h1 h1"
-    "content1 content1"
-    "content2 content3"
-    "content4 content5";
-}
-#projects h1,
-#repositories h1 {
-  grid-area: h1;
-}
-
-/* Styling the project tiles and the header of the project tile*/
-.project-tile {
-  border-style: dotted;
-  border-color: var(--framecolor);
-  color: var(--generalfontcolor);
-  position: relative;
-  width: var(--responsivew);
-  height: fit-content;
-  margin-bottom: 5vh;
-  margin-top: 3vh;
-  padding-top: 4vh;
-}
-.project-tile h2 {
-  border-style: solid;
-  border-radius: 5px;
-  border-color: var(--framecolor);
-  position: absolute;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 5px;
-  left: 5%;
-  top: -25px;
-  width: 90%;
-  height: 50px;
-  background-color: var(--bgcolorframe);
-  font-size: 200%;
-}
-
-/*assigning a bigger size to the first project*/
-.first-project {
-  grid-area: content1;
-}
-
-/*Styling the images of the portfolio*/
-.portfolio-image {
-  width: 90%;
-  border-radius: 1vw;
-  background-image: var(--glow);
-}
-
-/*styling the project note*/
-
-.project-note {
-  border-style: solid;
-  border-top-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-color: var(--bgcolornote);
-  color: var(--notecolor);
-  position: absolute;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 5px;
-  left: -1%;
-  top: 50%;
-  width: 25%;
-  height: 5vh;
-  background-color: var(--bgcolornote);
-  font-size: 100%;
-}
-
-/*****************************************************************/
-/* Contact me section*/
-
 /* Profile link image */
 .profile-link-image {
   width: 60px;
@@ -290,19 +213,14 @@ ul li {
   width: 120px;
   height: 120px;
 }
-
+.card-columns {
+  column-count: 3;
+}
 /*****************************************************************/
 /* Responsive styling */
 
 /* for smaller tablets (iPad Pro)*/
-@media screen and (max-width: 1024px) {
-  #projects {
-    grid-template-areas:
-      "h1 h1"
-      "content1 content2"
-      "content3 content4"
-      "content5 content6";
-  }
+@media screen and (max-width: 1350px) {
   .nav-link {
     font-size: 75%;
   }
@@ -322,18 +240,14 @@ ul li {
     font-size: 200%;
   }
   .card-columns {
-    column-count: 2;
+    column-count: 1;
+  }
+  .card {
+    width: 50vw;
   }
 }
 
 @media screen and (max-width: 768px) {
-  #projects {
-    grid-template-areas:
-      "h1 h1"
-      "content1 content2"
-      "content3 content4"
-      "content5 content6";
-  }
   .nav-link {
     font-size: 75%;
   }
@@ -357,7 +271,10 @@ ul li {
     background-color: var(--themeColor4);
   }
   .card-columns {
-    column-count: 2;
+    column-count: 1;
+  }
+  .card {
+    width: 75vw;
   }
 }
 
@@ -371,15 +288,7 @@ ul li {
     font-size: small;
     align-self: center;
   }
-  #projects {
-    grid-template-areas:
-      "h1"
-      "content1"
-      "content2"
-      "content3"
-      "content4"
-      "content5";
-  }
+
   .nav-link {
     font-size: 75%;
   }
@@ -404,6 +313,9 @@ ul li {
   }
   .card-columns {
     column-count: 1;
+  }
+  .card {
+    width: 95vw;
   }
 }
 

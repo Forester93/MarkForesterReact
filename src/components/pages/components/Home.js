@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div class="home">
+    <section class="home">
       <div class="max-width">
         <div class="home-content">
           <div class="text-1">Welcome to</div>
@@ -21,7 +21,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

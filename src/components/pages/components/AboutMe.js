@@ -2,7 +2,11 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <div id="welcome-section" class="main-section">
+    <section
+      id="welcome-section"
+      class="main-section"
+      style={{ height: "90vh" }}
+    >
       <p class="about-me text-2">
         <br />
         <strong>Who is Mark Forester?</strong>
@@ -31,6 +35,8 @@ function AboutMe() {
       <p class="about-me text-2">
         Proficient in the following technologies:
         <ul>
+          <li>React</li>
+          <li>MERN Stack</li>
           <li>HTML5</li>
           <li>Javascript ES6</li>
           <li>TDD (Test Driven Development)</li>
@@ -38,10 +44,13 @@ function AboutMe() {
           <li>Model View Controller Server Architecture</li>
           <li>CSS / Bootstrap</li>
           <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>IndexedDB</li>
+          <li>NoSQL</li>
         </ul>
         <br />
       </p>
-    </div>
+    </section>
   );
 }
 
