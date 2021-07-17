@@ -29,7 +29,12 @@ function Header() {
             </Link>
           </li>
           <li>
-            <a className="menu-btn" href={Portfolio}>
+            <a
+              className="menu-btn"
+              target="_blank"
+              rel="noreferrer"
+              href={Portfolio}
+            >
               Résumé
             </a>
           </li>
