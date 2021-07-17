@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Layout } from "./components/layout";
 import { AboutMe, Projects, Home, ContactMe } from "./components/pages";
+import { Typing } from "./components/scripts";
 import "./App.css";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           </Switch>
         </Layout>
       </Router>
+      <Typing />
     </div>
   );
 }

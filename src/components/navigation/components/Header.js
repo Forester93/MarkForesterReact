@@ -1,4 +1,5 @@
 import React from "react";
+import Portfolio from "../../../assets/files/MarkF_FullStackResume.pdf";
 
 function Header() {
   return (
@@ -12,6 +13,11 @@ function Header() {
             </a>
           </li>
           <li>
+            <a class="menu-btn" href="/about">
+              About Me
+            </a>
+          </li>
+          <li>
             <a class="menu-btn" href="/projects">
               Projects
             </a>
@@ -22,7 +28,7 @@ function Header() {
             </a>
           </li>
           <li>
-            <a class="menu-btn" href="./assets/files/MarkF_FullStackResume.pdf">
+            <a class="menu-btn" href={Portfolio}>
               Résumé
             </a>
           </li>

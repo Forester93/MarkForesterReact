@@ -1,4 +1,5 @@
 import React from "react";
+import { imgs, certs } from "../../../assets/images";
 
 let projects = [
   {
@@ -197,13 +198,10 @@ function Projects() {
         A list of projects authored or contributed thereto by Mark.
       </p>
       <br />
-      <div class="card-columns" id="projectsContainer">
-        {projects.map((project) => (
+      <div class="card-columns container" id="projectsContainer">
+        {projects.map((project, index) => (
           <div class="card container my-2" style={{ display: "inline-block" }}>
-            {/* <img
-            class="card-img-top"
-            src="./Mark Forester Portfolio_files/screenshot(0).png"
-          /> */}
+            <img class="card-img-top" src={imgs[index]} alt={project.name} />
             <div class="card-body">
               <h5 class="card-header">
                 <strong>{project.name}</strong>
