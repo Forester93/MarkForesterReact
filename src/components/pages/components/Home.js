@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Typewriter from "typewriter-effect";
 
 function Home() {
   return (
@@ -10,7 +11,21 @@ function Home() {
             Mark Forester's <span>Portfolio</span>
           </div>
           <div className="text-2">
-            Your Main Go-to for <span className="typing"></span>
+            Your Main Go-to for{" "}
+            <span className="typing">
+              <Typewriter
+                options={{
+                  strings: [
+                    "High-quality Dev Solutions",
+                    "Efficient Team Management",
+                    "Wide-network Talent Sourcing",
+                    "Great Client Relationships",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
           </div>
           <div>
             <a href="#contact">
